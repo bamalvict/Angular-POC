@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+    font-size: 50px; 
+    text-align: center;
+}
+h2{
+    color: rgb(231, 228, 17);
+    font-size: 100px; 
+    text-align: center;
+}
+/* class */
+.textcentreetcolorerouge {
+    text-align:right; 
+    color: red;     
+}

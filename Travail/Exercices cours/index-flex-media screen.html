@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .debug {
+            border: 1px solid red;
+        }
+
+        .row {
+            display: flex;
+            width: 1500px;
+        }
+
+        .direction-row {
+            flex-direction: row;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .direction-column {
+            flex-direction: column;
+        }
+
+        .col {
+            width: 150px;
+        }
+
+        @media screen and (max-width: 500px) {
+            .row {
+                width: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="row direction-row wrap">
+        <div class="col debug">1</div>
+        <div class="col debug">2</div>
+        <div class="col debug">3</div>
+    </div>
+</body>
+</html>
