@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Selfies à wookies</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <a class="navbar-brand" href="#">SaW</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil <span class="sr-only">(courant)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Un selfie</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Ta recherche ..."
+                        aria-label="Ta recherche ....">
+                    <button class="btn btn-danger my-2 my-sm-0" type="submit">Recherche</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <article class="row mb-3 shadow">
+                    <header class="col">
+                        <div class="row">
+                            <div class="col-9">
+                                <h2>Sacré tête, bien heureux</h2>
+                            </div>
+                            <div class="col text-right">
+                                [..]
+                            </div>
+                        </div>
+                    </header>
+                    <div class="w-100"></div>
+                    <div class="col pb-2">
+                        <img class="img-fluid" src="https://i.ytimg.com/vi/M1vQmU39uV8/maxresdefault.jpg">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col footer pb-2">
+                        <div class="d-flex">
+                            <div class="mr-2">
+                                <a type="button" class="btn " data-toggle="modal" data-target="#exampleModal">
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="row mb-3 shadow">
+                    <header class="col">
+                        <div class="row">
+                            <div class="col-9">
+                                <h2>En famille</h2>
+                            </div>
+                            <div class="col text-right">
+                                [..]
+                            </div>
+                        </div>
+                    </header>
+                    <div class="w-100"></div>
+                    <div class="col pb-2">
+                        <img class="img-fluid"
+                            src="http://www.funnylla.com/articles-images/207/gallery/_207_2796140563.jpg" alt=""
+                            srcset="">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col footer pb-2">
+                        <div class="d-flex">
+                            <div class="mr-2">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                            <div class="">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm d-none d-sm-block">
+                Menu plus plus
+                <i style="color:red"> A faire plus tard</i>
+            </div>
+        </div>
+    </main>
+
+    <footer class="fixed-bottom border-top bg-light">
+        <div class="row">
+            <div class="col text-center" style="font-weight:800; font-size:32px;">
+                <i class="fa fa-th-list"></i>
+            </div>
+            <div class="col text-center" style="font-weight:800; font-size:32px;">
+                <i class="fa fa-users"></i>
+            </div>
+            <div class="col text-center" style="font-weight:800; font-size:32px;">
+                <i class="fa fa-cog"></i>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Enregistrer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
